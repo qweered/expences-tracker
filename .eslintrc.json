@@ -8,11 +8,17 @@
   ],
 
   "rules": {
+
+      "jsx-a11y/label-has-associated-control": "off",
+      "no-console": "off",
+      "no-magic-numbers": "off",
+
       "react/prop-types": "off",
       "react/forbid-component-props": "off",
       "react-perf/jsx-no-new-function-as-prop": "off",
+      "react-perf/jsx-no-new-array-as-prop": "off",
       "react/jsx-no-bind": "off",
-      "no-magic-numbers": "off",
+
       "func-style": ["error","expression"],
       "react/function-component-definition": [
       "error",
@@ -20,8 +26,7 @@
         "namedComponents": "arrow-function",
         "unnamedComponents": "arrow-function"
       }
-    ],
-    "no-console": "off"
+    ]
   },
 
   "env": {
