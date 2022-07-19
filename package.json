@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "eslint": "^8.20.0",
+    "eslint-config-hardcore": "^24.8.1"
   }
 }

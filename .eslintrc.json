@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "hardcore",
+    "hardcore/react",
+    "hardcore/react-testing-library",
+    "hardcore/jest",
+    "hardcore/fp"
+  ],
+
+  "rules": {
+      "react/prop-types": "off",
+      "no-magic-numbers": "off"
+  },
+
+  "env": {
+    "browser": true
+  },
+
+  "overrides": [
+    {
+      "files": ["server/**/*.js"],
+      "extends": ["hardcore/node"],
+      "env": {
+        "browser": false
+      }
+    }
+  ]
+}
