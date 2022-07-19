@@ -37,6 +37,8 @@
   },
   "devDependencies": {
     "eslint": "^8.20.0",
-    "eslint-config-hardcore": "^24.8.1"
+    "eslint-config-hardcore": "^24.8.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-recommended": "^8.0.0"
   }
 }
