@@ -1,7 +1,7 @@
 import "./App.css";
 import Expenses from "./components/Expenses/Expenses.jsx";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -25,6 +25,6 @@ function App() {
   ];
 
   return <Expenses expenses={expenses} />;
-}
+};
 
 export default App;

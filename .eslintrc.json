@@ -9,7 +9,15 @@
 
   "rules": {
       "react/prop-types": "off",
-      "no-magic-numbers": "off"
+      "no-magic-numbers": "off",
+      "func-style": ["error","expression"],
+      "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
   },
 
   "env": {
