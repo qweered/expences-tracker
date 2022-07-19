@@ -10,6 +10,7 @@
   "rules": {
 
       "jsx-a11y/label-has-associated-control": "off",
+      "unicorn/consistent-function-scoping": "off",
       "no-console": "off",
       "no-magic-numbers": "off",
 
