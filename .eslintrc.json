@@ -18,6 +18,7 @@
     "react-perf/jsx-no-new-function-as-prop": "off",
     "react-perf/jsx-no-new-array-as-prop": "off",
     "react/jsx-no-bind": "off",
+    "react/jsx-no-leaked-render": "off",
     "func-style": [
       "error",
       "expression"
