@@ -6,22 +6,23 @@
     "hardcore/jest",
     "hardcore/fp"
   ],
-
   "rules": {
-
-      "jsx-a11y/label-has-associated-control": "off",
-      "unicorn/consistent-function-scoping": "off",
-      "no-console": "off",
-      "no-magic-numbers": "off",
-
-      "react/prop-types": "off",
-      "react/forbid-component-props": "off",
-      "react-perf/jsx-no-new-function-as-prop": "off",
-      "react-perf/jsx-no-new-array-as-prop": "off",
-      "react/jsx-no-bind": "off",
-
-      "func-style": ["error","expression"],
-      "react/function-component-definition": [
+    "fp/no-mutation": "off",
+    "fp/no-let": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "unicorn/consistent-function-scoping": "off",
+    "no-console": "off",
+    "no-magic-numbers": "off",
+    "react/prop-types": "off",
+    "react/forbid-component-props": "off",
+    "react-perf/jsx-no-new-function-as-prop": "off",
+    "react-perf/jsx-no-new-array-as-prop": "off",
+    "react/jsx-no-bind": "off",
+    "func-style": [
+      "error",
+      "expression"
+    ],
+    "react/function-component-definition": [
       "error",
       {
         "namedComponents": "arrow-function",
@@ -29,15 +30,17 @@
       }
     ]
   },
-
   "env": {
     "browser": true
   },
-
   "overrides": [
     {
-      "files": ["server/**/*.js"],
-      "extends": ["hardcore/node"],
+      "files": [
+        "server/**/*.js"
+      ],
+      "extends": [
+        "hardcore/node"
+      ],
       "env": {
         "browser": false
       }
