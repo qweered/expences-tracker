@@ -7,8 +7,10 @@
     "hardcore/fp"
   ],
   "rules": {
+    "guard-for-in": "off",
     "fp/no-mutation": "off",
     "fp/no-let": "off",
+    "fp/no-loops": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "unicorn/consistent-function-scoping": "off",
     "no-console": "off",
@@ -17,6 +19,7 @@
     "react/forbid-component-props": "off",
     "react-perf/jsx-no-new-function-as-prop": "off",
     "react-perf/jsx-no-new-array-as-prop": "off",
+    "react-perf/jsx-no-new-object-as-prop": "off",
     "react/jsx-no-bind": "off",
     "react/jsx-no-leaked-render": "off",
     "func-style": [
